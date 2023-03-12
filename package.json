@@ -1,0 +1,12 @@
+{
+  "name": "frontend-sandbox",
+  "version": "1.0.0",
+  "description": "This repository is thinceller's Front-end sandbox.",
+  "author": "thinceller <thinceller@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "packageManager": "pnpm@7.29.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
