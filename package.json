@@ -13,7 +13,12 @@
     "yarn": "use pnpm instead"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "run-p lint:*",
+    "lint:prettier": "prettier --check .",
+    "lint:eslint": "eslint . --ext js,jsx,ts,tsx --max-warnings=0",
+    "format": "run-s -c format:*",
+    "format:prettier": "prettier --write .",
+    "format:eslint": "eslint . --ext js,jsx,ts,tsx --fix"
   },
   "devDependencies": {
     "@types/node": "18.15.3",
@@ -24,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "npm-run-all": "4.1.5",
     "prettier": "2.8.4",
     "prettier-plugin-organize-imports": "3.2.2",
     "typescript": "4.9.5"
