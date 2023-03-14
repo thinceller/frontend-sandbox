@@ -39,3 +39,10 @@ pnpm start
 # or
 pnpm -F <packageName> start
 ```
+
+### Linting and Formatting
+
+```sh
+pnpm lint
+pnpm format
+```
