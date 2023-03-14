@@ -13,7 +13,12 @@
     "yarn": "use pnpm instead"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "run-p lint:*",
+    "lint:prettier": "prettier --check .",
+    "lint:eslint": "eslint . --ext js,jsx,ts,tsx --max-warnings=0",
+    "format": "run-s -c format:*",
+    "format:prettier": "prettier --write .",
+    "format:eslint": "eslint . --ext js,jsx,ts,tsx --fix"
   },
   "devDependencies": {
     "@types/node": "18.15.3",
