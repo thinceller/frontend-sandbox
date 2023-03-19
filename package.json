@@ -5,10 +5,10 @@
   "author": "thinceller <thinceller@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
-  "packageManager": "pnpm@7.29.1",
+  "packageManager": "pnpm@7.29.3",
   "engines": {
     "node": "18.15.0",
-    "pnpm": "7.29.1",
+    "pnpm": "7.29.3",
     "npm": "use pnpm instead",
     "yarn": "use pnpm instead"
   },
