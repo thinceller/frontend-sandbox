@@ -32,9 +32,9 @@ importers:
 
   packages/analog-clock:
     specifiers:
-      vite: 4.2.0
+      vite: 4.2.1
     devDependencies:
-      vite: 4.2.0
+      vite: 4.2.1
 
 packages:
 
@@ -2202,8 +2202,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/4.2.0:
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite/4.2.1:
+    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
