@@ -13,7 +13,7 @@ importers:
       eslint-plugin-react: 7.32.2
       eslint-plugin-react-hooks: 4.6.0
       npm-run-all: 4.1.5
-      prettier: 2.8.4
+      prettier: 2.8.8
       prettier-plugin-organize-imports: 3.2.2
       typescript: 5.0.4
     devDependencies:
@@ -26,8 +26,8 @@ importers:
       eslint-plugin-react: 7.32.2_eslint@8.37.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.37.0
       npm-run-all: 4.1.5
-      prettier: 2.8.4
-      prettier-plugin-organize-imports: 3.2.2_bq7scguyw5atb5o44pzjxqtc5a
+      prettier: 2.8.8
+      prettier-plugin-organize-imports: 3.2.2_j5pxtsccu66l27vudenovfwlqy
       typescript: 5.0.4
 
   packages/analog-clock:
@@ -1810,7 +1810,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.2_bq7scguyw5atb5o44pzjxqtc5a:
+  /prettier-plugin-organize-imports/3.2.2_j5pxtsccu66l27vudenovfwlqy:
     resolution: {integrity: sha512-e97lE6odGSiHonHJMTYC0q0iLXQyw0u5z/PJpvP/3vRy6/Zi9kLBwFAbEGjDzIowpjQv8b+J04PDamoUSQbzGA==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -1823,12 +1823,12 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      prettier: 2.8.4
+      prettier: 2.8.8
       typescript: 5.0.4
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
