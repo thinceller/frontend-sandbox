@@ -13,12 +13,9 @@
     "yarn": "use pnpm instead"
   },
   "scripts": {
-    "lint": "run-p lint:*",
-    "lint:prettier": "prettier --check .",
-    "lint:eslint": "eslint . --ext js,jsx,ts,tsx --max-warnings=0",
-    "format": "run-s -c format:*",
-    "format:prettier": "prettier --write .",
-    "format:eslint": "eslint . --ext js,jsx,ts,tsx --fix"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
     "@types/node": "18.15.11",
