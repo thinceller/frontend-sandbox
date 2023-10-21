@@ -1,3 +1,7 @@
+const { resolve } = require('node:path');
+
+const project = resolve(process.cwd(), 'tsconfig.json');
+
 module.exports = {
   root: true,
   env: {
@@ -22,8 +26,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    project: ['./tsconfig.json', './packages/*/tsconfig.json'],
-    tsconfigRootDir: __dirname,
+    project,
   },
   settings: {
     react: {
