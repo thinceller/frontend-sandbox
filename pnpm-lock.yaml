@@ -10,7 +10,7 @@ importers:
       eslint: 8.37.0
       npm-run-all: 4.1.5
       prettier: 2.8.8
-      prettier-plugin-organize-imports: 3.2.3
+      prettier-plugin-organize-imports: 3.2.4
       turbo: 1.10.16
       typescript: 5.0.4
     devDependencies:
@@ -20,7 +20,7 @@ importers:
       eslint: 8.37.0
       npm-run-all: 4.1.5
       prettier: 2.8.8
-      prettier-plugin-organize-imports: 3.2.3_j5pxtsccu66l27vudenovfwlqy
+      prettier-plugin-organize-imports: 3.2.4_j5pxtsccu66l27vudenovfwlqy
       turbo: 1.10.16
       typescript: 5.0.4
 
@@ -2468,8 +2468,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.3_j5pxtsccu66l27vudenovfwlqy:
-    resolution: {integrity: sha512-KFvk8C/zGyvUaE3RvxN2MhCLwzV6OBbFSkwZ2OamCrs9ZY4i5L77jQ/w4UmUr+lqX8qbaqVq6bZZkApn+IgJSg==}
+  /prettier-plugin-organize-imports/3.2.4_j5pxtsccu66l27vudenovfwlqy:
+    resolution: {integrity: sha512-6m8WBhIp0dfwu0SkgfOxJqh+HpdyfqSSLfKKRZSFbDuEQXDDndb8fTpRWkUrX/uBenkex3MgnVk0J3b3Y5byog==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
       '@volar/vue-typescript': ^1.0.4
