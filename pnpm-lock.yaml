@@ -14,7 +14,7 @@ importers:
       turbo: 1.10.16
       typescript: 5.0.4
     devDependencies:
-      '@types/node': 18.15.11
+      '@types/node': 20.12.7
       '@typescript-eslint/eslint-plugin': 5.57.1_w64v55oilcq7ovueyf3rv6iwdm
       '@typescript-eslint/parser': 5.57.1_bzbbflj65ga2lrhzlpvelbzcnq
       eslint: 8.37.0
@@ -48,7 +48,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@types/node': 20.8.4
+      '@types/node': 20.12.7
       '@types/react': 18.2.79
       '@types/react-dom': 18.2.25
       autoprefixer: 10.4.16_postcss@8.4.47
@@ -484,14 +484,10 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node/18.15.11:
-    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
-    dev: true
-
-  /@types/node/20.8.4:
-    resolution: {integrity: sha512-ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==}
+  /@types/node/20.12.7:
+    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
     dev: true
 
   /@types/prop-types/15.7.12:
@@ -3129,8 +3125,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici-types/5.25.3:
-    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+  /undici-types/5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
   /update-browserslist-db/1.0.13_browserslist@4.22.1:
