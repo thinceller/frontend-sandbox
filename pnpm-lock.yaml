@@ -26,9 +26,9 @@ importers:
 
   apps/analog-clock:
     specifiers:
-      vite: 4.5.6
+      vite: 4.5.9
     devDependencies:
-      vite: 4.5.6
+      vite: 4.5.9
 
   apps/study-app-router-static-exports:
     specifiers:
@@ -3161,8 +3161,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/4.5.6:
-    resolution: {integrity: sha512-ElBNuVvJKslxcfY2gMmae5IjaKGqCYGicCNZ+8R56sAznobeE3pI9ctzI17cBS/6OJh5YuQNMSN4BP4dRjugBg==}
+  /vite/4.5.9:
+    resolution: {integrity: sha512-qK9W4xjgD3gXbC0NmdNFFnVFLMWSNiR3swj957yutwzzN16xF/E7nmtAyp1rT9hviDroQANjE4HK3H4WqWdFtw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
