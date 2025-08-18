@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@types/node': 18.15.11
+      '@types/node': 18.19.123
       '@typescript-eslint/eslint-plugin': 5.57.1
       '@typescript-eslint/parser': 5.57.1
       eslint: 8.37.0
@@ -14,7 +14,7 @@ importers:
       turbo: 1.10.16
       typescript: 5.0.4
     devDependencies:
-      '@types/node': 18.15.11
+      '@types/node': 18.19.123
       '@typescript-eslint/eslint-plugin': 5.57.1_w64v55oilcq7ovueyf3rv6iwdm
       '@typescript-eslint/parser': 5.57.1_bzbbflj65ga2lrhzlpvelbzcnq
       eslint: 8.37.0
@@ -484,8 +484,10 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node/18.15.11:
-    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
+  /@types/node/18.19.123:
+    resolution: {integrity: sha512-K7DIaHnh0mzVxreCR9qwgNxp3MH9dltPNIEddW9MYUlcKAzm+3grKNSTe2vCJHI1FaLpvpL5JGJrz1UZDKYvDg==}
+    dependencies:
+      undici-types: 5.26.5
     dev: true
 
   /@types/node/20.8.4:
@@ -3131,6 +3133,10 @@ packages:
 
   /undici-types/5.25.3:
     resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+    dev: true
+
+  /undici-types/5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
   /update-browserslist-db/1.0.13_browserslist@4.22.1:
