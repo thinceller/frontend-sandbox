@@ -10,7 +10,7 @@ importers:
       eslint: 8.37.0
       npm-run-all: 4.1.5
       prettier: 2.8.8
-      prettier-plugin-organize-imports: 3.2.4
+      prettier-plugin-organize-imports: 4.3.0
       turbo: 1.10.16
       typescript: 5.0.4
     devDependencies:
@@ -20,7 +20,7 @@ importers:
       eslint: 8.37.0
       npm-run-all: 4.1.5
       prettier: 2.8.8
-      prettier-plugin-organize-imports: 3.2.4_j5pxtsccu66l27vudenovfwlqy
+      prettier-plugin-organize-imports: 4.3.0_j5pxtsccu66l27vudenovfwlqy
       turbo: 1.10.16
       typescript: 5.0.4
 
@@ -2477,17 +2477,14 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.4_j5pxtsccu66l27vudenovfwlqy:
-    resolution: {integrity: sha512-6m8WBhIp0dfwu0SkgfOxJqh+HpdyfqSSLfKKRZSFbDuEQXDDndb8fTpRWkUrX/uBenkex3MgnVk0J3b3Y5byog==}
+  /prettier-plugin-organize-imports/4.3.0_j5pxtsccu66l27vudenovfwlqy:
+    resolution: {integrity: sha512-FxFz0qFhyBsGdIsb697f/EkvHzi5SZOhWAjxcx2dLt+Q532bAlhswcXGYB1yzjZ69kW8UoadFBw7TyNwlq96Iw==}
     peerDependencies:
-      '@volar/vue-language-plugin-pug': ^1.0.4
-      '@volar/vue-typescript': ^1.0.4
       prettier: '>=2.0'
       typescript: '>=2.9'
+      vue-tsc: ^2.1.0 || 3
     peerDependenciesMeta:
-      '@volar/vue-language-plugin-pug':
-        optional: true
-      '@volar/vue-typescript':
+      vue-tsc:
         optional: true
     dependencies:
       prettier: 2.8.8
